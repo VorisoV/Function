@@ -36,3 +36,4 @@ function juft(son1){
     }
 }
 console.log(juft(1))
+console.log("Lala")

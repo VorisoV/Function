@@ -45,3 +45,64 @@
 // }
 // console.log(raqam())
 // "\n"probel
+// function sana(son) {
+//     var son2 = "";
+//     for (i = 0; i <= son; i++) {
+//          son2 = son2 + i + "\n"
+
+//     }
+//     return son2;
+// }
+// console.log(sana(10))
+// function sana(son){
+//     var son2 = ""
+//     for (i = 0; i <= son; i++){
+//         son2 = son2 + " ".repeat(i)+ i + "\n"
+//     }
+//     return son2;
+// }
+// console.log(sana(10))
+// function sana(son1,son2){
+//     var son = "";
+//     for(i= son1; i <= son2; i++){
+//         son = son + i + "\n"
+//     }
+//     return son
+// }
+// console.log(sana(5,8))
+// function sana(son1, son2, son3) {
+//     var son = "";
+//     for (i = son1; i < son2; i= i + son3) {
+//         son = son + i + "\n"
+//     }
+//     return son
+// }
+// console.log(sana(4, 20, 5))
+// function sana(son1, son2, son3) {
+//     var son = "";
+//     for (i = son1; i < son2; i++) {
+//         if (i % son3 == 0)
+//             son = son + i + "\n"
+//     }
+//     return son
+// }
+// console.log(sana(21,100,5))
+// split= xamma xarbiti alohida chiqaradi 
+// .replace= harf almashtirish
+// var almash = (soz,harf) =>{
+//     soz = soz.split("")
+//     for (var i =0;i < soz.length; i++){
+//         if(soz[i] == harf){
+//             soz[i] = "*"
+//         }
+//     }
+//     soz = soz.join("")=qoshish
+//     return soz
+// }
+// console.log(almash("jijijij","i"))
+// var almashtir = (soz) => {
+//     soz = soz.split("");
+//     harf = [""]
+//     for (i = 0; i < soz.length; i++)
+//         if (soz[i] == harf)
+// }
